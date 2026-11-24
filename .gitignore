@@ -1,0 +1,24 @@
+﻿# Environnements Python
+env/
+env_ia/
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Tests et notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Configuration locale
+.env
+.vscode/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+
+# Fichier d'arborescence local
+structure_projet.txt

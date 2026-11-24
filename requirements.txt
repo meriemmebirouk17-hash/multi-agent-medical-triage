@@ -1,0 +1,17 @@
+# Versions alignées sur l'environnement du membre 1 (Python 3.13)
+tensorflow==2.20.0
+keras==3.13.2
+
+
+# Interface et manipulation de données
+streamlit==1.66.1
+numpy==2.5.4
+pandas==3.1.0
+pillow==13.0.0
+
+
+# À ajouter quand le membre 2 aura donné ses versions :
+scikit-learn==1.6.1
+joblib==1.6.0
+
+pytest==9.2.0
