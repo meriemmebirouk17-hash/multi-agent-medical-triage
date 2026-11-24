@@ -1,24 +1,32 @@
-﻿# Environnements Python
+﻿# Environnements virtuels
 env/
 env_ia/
 venv/
 .venv/
 
-# Cache Python
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Tests et notebooks
+# Tests
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Configuration locale
-.env
+# IDE
 .vscode/
+.idea/
 
-# Fichiers temporaires
+# Variables d'environnement
+.env
+
+# Logs
 *.log
-.DS_Store
 
-# Fichier d'arborescence local
-structure_projet.txt
+# Système
+.DS_Store
+Thumbs.db
